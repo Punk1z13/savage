@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="folio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#"><span>C</span>linton</a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Clinton</span> <br> Richard from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="gt.jpg" height="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, exercitationem eveniet.
+                        Aspernatur iure facere, earum reprehenderit placeat reiciendis nihil atque neque odio nostrum
+                        nisi in expedita tempora ducimus consectetur repellendus.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend</span> <br> Developing Database Interfaces</li>
+                            <li><span>Web Development</span> <br> Developing Frontend Designs</li>
+                            <li><span>Game Development</span> <br> Designing different series of games</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Currently</span> <br>Not Working</li>
+                            <li><span>2019</span> <br>Nil</li>
+                            <li><span>2014</span> <br>Nil</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span> <br> Web Development Training at SOAIR</li>
+                            <li><span>2021</span> <br> Online Courses with Greatstack</li>
+                            <li><span>2020</span> <br> Game Development Training Program</li>
+                        </ul>
+                    </div>
+                    <div class="home">
+                        <a href="#header">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-curly'></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fugit quam expedita nulla,
+                        nesciunt esse consectetur id eum sapiente neque, minima iure quasi reiciendis sequi ratione,
+                        nobis voluptates? Sint, error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-laptop'></i>
+                    <h2>Backend Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fugit quam expedita nulla,
+                        nesciunt esse consectetur id eum sapiente neque, minima iure quasi reiciendis sequi ratione,
+                        nobis voluptates? Sint, error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-joystick'></i>
+                    <h2>Game Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fugit quam expedita nulla,
+                        nesciunt esse consectetur id eum sapiente neque, minima iure quasi reiciendis sequi ratione,
+                        nobis voluptates? Sint, error?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="home">
+                <a href="#header">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="234.jpg">
+                    <div class="layer">
+                        <h3>Social Media Applications</h3>
+                        <p>This application is used to access different web pages from every in the world <br> Download from play store </p>
+                        <a href="#"><i class='bx bx-mobile'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Artboard_1_copy_3.png">
+                    <div class="layer">
+                        <h3>Music Applications</h3>
+                        <p>This application is used to access different web pages from every in the world <br> Download from play store </p>
+                        <a href="#"><i class='bx bx-mobile'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Artboard_1_copy_2.png">
+                    <div class="layer">
+                        <h3>E-commerce Applications</h3>
+                        <p>This application is used to access different web pages from every in the world <br> Download from play store </p>
+                        <a href="#"><i class='bx bx-mobile'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="home">
+                <a href="#header">Back to home</a>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class='bx bxs-paper-plane'></i> favourrichard4680@gmail.com</p>
+                    <p> <i class='bx bx-phone-call'></i> 08144961628</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://linkedin.com"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://whatsapp.com"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <a href="CS 103 pastries, bread and small chops(5).pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="home">
+                <a href="#header">Back to home</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Clinton. Designed with <i class='bx bxs-heart'></i> by Savage</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
